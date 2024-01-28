@@ -4,7 +4,7 @@ local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.
 --------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
     Title = "MELON HUD",
-    SubTitle = "by KHANH DEP CHAI",
+    SubTitle = "BY TR PHÚ KHÁNH ",
     TabWidth = 160,
     Size = UDim2.fromOffset(450, 300),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
@@ -2312,7 +2312,7 @@ ImageButton.Parent = ScreenGui
 ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton.Position = UDim2.new(0.10615778, 0, 0.16217947, 0)
 ImageButton.Size = UDim2.new(0.0627121851, 0, 0.107579626, 0)
-ImageButton.Image = "rbxassetid://16150395547"
+ImageButton.Image = "rbxassetid://16151197891"
 
 UICorner.CornerRadius = UDim.new(0, 30)
 UICorner.Parent = ImageButton
