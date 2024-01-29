@@ -10,7 +10,7 @@ spawn(function()
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
     wait(1.5)
     require(game.ReplicatedStorage.Notification).new("<Color=Red> Welcome To LI XI Hub <Color=/>"):Display()
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>make lixi hub by phu khanh<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>MAKE LIXI HUB BY PHU KHANH<Color=/>"):Display()
 end)
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
