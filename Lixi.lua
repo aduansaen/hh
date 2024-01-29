@@ -24,8 +24,8 @@ local InterfaceManager =
 local Window =
     Fluent:CreateWindow(
     {
-        Title = "Lì Xì Hub -version 2.",
-        SubTitle = "By Phú Khánh ",
+        Title = "NTB Hub",
+        SubTitle = "Nguyễn thế bảo ",
         TabWidth = 160,
         Size = UDim2.fromOffset(530, 350),
         Acrylic = true,
@@ -51,13 +51,13 @@ local Options = Fluent.Options
 do
     Tabs.Discord:AddButton(
         {
-            Title = "Copy Link FB lì xì  HUB",
-            Description = "https://www.facebook.com/kaka.khoi.315",
+            Title = "Copy Link Discord NTB HUB",
+            Description = "https://discord.com/invite/mfAhV7dN",
             Callback = function()
-                setclipboard("https://www.facebook.com/kaka.khoi.315")
+                setclipboard("https://discord.com/invite/mfAhV7dN")
                 Fluent:Notify(
                     {
-                        Title = "Lì Xì Hub",
+                        Title = "NTB Hub",
                         Content = "Copied!",
                         SubContent = "", -- Optional
                         Duration = 5 -- Set to nil to make the notification not disappear
@@ -68,13 +68,13 @@ do
     )
     Tabs.Discord:AddButton(
         {
-            Title = "Copy Link ",
-            Description = "https://www.facebook.com/kaka.khoi.315",
+            Title = "Copy Link sever ",
+            Description = "https://discord.com/invite/mfAhV7dN",
             Callback = function()
-                setclipboard("https://www.facebook.com/kaka.khoi.315")
+                setclipboard("https://discord.com/invite/mfAhV7dN")
                 Fluent:Notify(
                     {
-                        Title = "Lì Xì Hub",
+                        Title = "NTB Hub",
                         Content = "Copied!",
                         SubContent = "", -- Optional
                         Duration = 5 -- Set to nil to make the notification not disappear
@@ -4069,6 +4069,12 @@ do
     ToggleButton.BorderSizePixel = 0
     ToggleButton.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
     ToggleButton.Size = UDim2.new(0, 50, 0, 50)
+    ToggleButton.Font = Enum.Font.SourceSans
+    ToggleButton.Text = "AfxcaxiRoblox"
+    ImageButton.Parent = ScreenGui
+    ImageButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    ImageButton.Position = UDim2.new(0.10615778, 0, 0.16217947, 0)
+    ImageButton.Size = UDim2.new(0.0627121851, 0, 0.107579626, 0)
     ImageButton.Image = "rbxassetid://16160647004"
     ToggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
     ToggleButton.TextSize = 14.000
