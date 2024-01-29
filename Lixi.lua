@@ -4070,12 +4070,7 @@ do
     ToggleButton.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
     ToggleButton.Size = UDim2.new(0, 50, 0, 50)
     ToggleButton.Font = Enum.Font.SourceSans
-    ToggleButton.Text = "AfxcaxiRoblox"
-    ImageButton.Parent = ScreenGui
-    ImageButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-    ImageButton.Position = UDim2.new(0.10615778, 0, 0.16217947, 0)
-    ImageButton.Size = UDim2.new(0.0627121851, 0, 0.107579626, 0)
-    ImageButton.Image = "rbxassetid://16160647004"
+    ToggleButton.Text = "Lì Xì 500"
     ToggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
     ToggleButton.TextSize = 14.000
     ToggleButton.Draggable = true
