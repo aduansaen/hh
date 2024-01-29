@@ -2388,7 +2388,7 @@ local posZ = 0
     })
 
     local DropdownSelectWeapon = Tabs.Main:AddDropdown("DropdownSelectWeapon", {
-        Title = "Bỏ",
+        Title = "ChọnChọn",
         Values = {'Melee','Sword','Blox Fruit'},
         Multi = false,
         Default = 1,
@@ -4749,7 +4749,7 @@ Tabs.Teleport:AddParagraph({
 })
 
 Tabs.Teleport:AddButton({
-    Title = "First Sea",
+    Title = "Biển 1",
     Description = "",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("TravelMain")
@@ -4759,7 +4759,7 @@ Tabs.Teleport:AddButton({
 
 
 Tabs.Teleport:AddButton({
-    Title = "Second Sea",
+    Title = "Biển 2",
     Description = "",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("TravelDressrosa")
@@ -4769,7 +4769,7 @@ Tabs.Teleport:AddButton({
 
 
 Tabs.Teleport:AddButton({
-    Title = "Third Sea",
+    Title = "Biển 3",
     Description = "",
     Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("TravelZou")
@@ -4779,8 +4779,8 @@ Tabs.Teleport:AddButton({
 
 
 Tabs.Teleport:AddParagraph({
-    Title = "Island",
-    Content = "Teleport to Island"
+    Title = "Đảo",
+    Content = "Dịch Chuyển Tới ĐảoĐảo"
 })
 
 if First_Sea then
@@ -5615,7 +5615,7 @@ end)
 
 
 Tabs.Race:AddButton({
-    Title = "Timple Of Time",
+    Title = "TP upv4",
     Description = "",
     Callback = function()
         game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28286.35546875, 14895.3017578125, 102.62469482421875)
@@ -5624,7 +5624,7 @@ Tabs.Race:AddButton({
 
 
 Tabs.Race:AddButton({
-    Title = "Lever Pull",
+    Title = "Tp gạt cần",
     Description = "",
     Callback = function()
         TP2(CFrame.new(28575.181640625, 14936.6279296875, 72.31636810302734))
@@ -5633,7 +5633,7 @@ Tabs.Race:AddButton({
 
 
 Tabs.Race:AddButton({
-    Title = "Acient One",
+    Title = "TP TỚI chổ mua gear ",
     Description = "",
     Callback = function()
         TP2(CFrame.new(28981.552734375, 14888.4267578125, -120.245849609375))
@@ -5642,13 +5642,13 @@ Tabs.Race:AddButton({
 
 
 Tabs.Race:AddParagraph({
-    Title = "Auto Race",
+    Title = "Tự Động Tộc",
     Content = ""
 })
 
 
 Tabs.Race:AddButton({
-    Title = "Race Door",
+    Title = "Tộc cửa",
     Description = "",
     Callback = function()
         Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28286.35546875, 14895.3017578125, 102.62469482421875) 
@@ -5930,7 +5930,7 @@ Tabs.Shop:AddButton({
 
 
 Tabs.Shop:AddButton({
-	Title = "Buso Haki",
+	Title = "Haki Vũ Trang",
 	Description = "",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyHaki","Buso")
@@ -5941,7 +5941,7 @@ Tabs.Shop:AddButton({
 
 
 Tabs.Shop:AddButton({
-	Title = "Soru",
+	Title = "Dịch chuyển",
 	Description = "",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyHaki","Soru")
@@ -5950,7 +5950,7 @@ Tabs.Shop:AddButton({
 
 
 Tabs.Shop:AddButton({
-	Title = "Ken Haki",
+	Title = "Haki Quang SátSát",
 	Description = "",
 	Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("KenTalk","Buy")
@@ -5966,7 +5966,7 @@ Tabs.Shop:AddParagraph({
 
 
 Tabs.Shop:AddButton({
-	Title = "Black Leg",
+	Title = "Chân Đen",
 	Description = "",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyBlackLeg")
@@ -5974,21 +5974,21 @@ Tabs.Shop:AddButton({
 })
 
 Tabs.Shop:AddButton({
-	Title = "Electro",
+	Title = "Điện v1",
 	Description = "",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyElectro")
 	end
 })
 Tabs.Shop:AddButton({
-	Title = "Fishman Karate",
+	Title = "Người Cá v1v1",
 	Description = "",
 	Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyFishmanKarate")
 	end
 })
 Tabs.Shop:AddButton({
-	Title = "Dragon Claw",
+	Title = "talon v1",
 	Description = "",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","DragonClaw","1")
@@ -5996,21 +5996,21 @@ Tabs.Shop:AddButton({
 	end
 })
 Tabs.Shop:AddButton({
-	Title = "Superhuman",
+	Title = "Thượng Nhân Quyền",
 	Description = "",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuySuperhuman")
 	end
 })
 Tabs.Shop:AddButton({
-	Title = "Death Step",
+	Title = "Chân đen v2",
 	Description = "",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyDeathStep")
 	end
 })
 Tabs.Shop:AddButton({
-	Title = "Sharkman Karate",
+	Title = "Cá v2",
 	Description = "",
 	Callback = function()
         game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuySharkmanKarate",true)
@@ -6018,21 +6018,21 @@ Tabs.Shop:AddButton({
 	end
 })
 Tabs.Shop:AddButton({
-	Title = "Electric Claw",
+	Title = "Điện v2",
 	Description = "",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyElectricClaw")
 	end
 })
 Tabs.Shop:AddButton({
-	Title = "Dragon Talon",
+	Title = "Talon v2",
 	Description = "",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyDragonTalon")
 	end
 })
 Tabs.Shop:AddButton({
-	Title = "Godhuman",
+	Title = "CHÚACHÚA",
 	Description = "",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyGodhuman")
@@ -6046,7 +6046,7 @@ Tabs.Shop:AddParagraph({
 })
 
 Tabs.Shop:AddButton({
-	Title = "Refund Stats",
+	Title = "Reset chỉ số",
 	Description = "",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Refund","1")
@@ -6054,7 +6054,7 @@ Tabs.Shop:AddButton({
 	end
 })
 Tabs.Shop:AddButton({
-	Title = "Reroll Race",
+	Title = "Reset tộc",
 	Description = "",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BlackbeardReward","Reroll","1")
@@ -6065,7 +6065,7 @@ Tabs.Shop:AddButton({
 --misc
 
 Tabs.Misc:AddButton({
-	Title = "Rejoin Server",
+	Title = "Vô lại seversever ",
 	Description = "",
 	Callback = function()
 		game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
@@ -6075,7 +6075,7 @@ Tabs.Misc:AddButton({
 
 
 Tabs.Misc:AddButton({
-	Title = "Hop Server",
+	Title = "Đổi Sever ",
 	Description = "",
 	Callback = function()
 		Hop()
@@ -6191,7 +6191,7 @@ Number = math.random(1, 1000000)
 
 
 Tabs.Misc:AddButton({
-	Title = "Hop Server Low Player",
+	Title = "Đổi Sever ít NgườiNgười",
 	Description = "",
 	Callback = function()
 		getgenv().AutoTeleport = true
@@ -6247,7 +6247,7 @@ Tabs.Misc:AddParagraph({
 
 })
 Tabs.Misc:AddButton({
-	Title = "Devil Shop",
+	Title = "Cửa Hàng Trái",
 	Description = "",
 	Callback = function()
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("GetFruits")
@@ -6258,7 +6258,7 @@ Tabs.Misc:AddButton({
 
 
 Tabs.Misc:AddButton({
-	Title = "Color Haki",
+	Title = "Màu Haki",
 	Description = "",
 	Callback = function()
 		game.Players.localPlayer.PlayerGui.Main.Colors.Visible = true
