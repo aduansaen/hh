@@ -10,7 +10,7 @@ spawn(function()
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
     wait(1.5)
     require(game.ReplicatedStorage.Notification).new("<Color=Red>Chào mừng đến Lì Xì Hud <Color=/>"):Display()
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Discord : Muốn cày thuê liên hệ ngay phú khánh <Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Muốn cày thuê liên hệ ngay phú khánh <Color=/>"):Display()
 end)
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
