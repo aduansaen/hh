@@ -18,9 +18,9 @@ local Tabs = {
     Player = Window:AddTab({ Title = "Người chơi", Icon = "baby" }),
     Teleport = Window:AddTab({ Title = "Dịch Chuyển", Icon = "palmtree" }),
     Fruit = Window:AddTab({ Title = "Ác Quỷ", Icon = "cherry" }),
-    Raid = Window:AddTab({ Title = "Dungeon", Icon = "swords" }),
-    Race = Window:AddTab({ Title = "Race V4", Icon = "chevrons-right" }),
-    Shop = Window:AddTab({ Title = "Shop", Icon = "shopping-cart" }),
+    Raid = Window:AddTab({ Title = "Tập kích", Icon = "swords" }),
+    Race = Window:AddTab({ Title = "Tộc V4", Icon = "chevrons-right" }),
+    Shop = Window:AddTab({ Title = "Cửa Hàng", Icon = "shopping-cart" }),
 	Misc = Window:AddTab({ Title = "Misc", Icon = "list-plus" }),
 }
 local Options = Fluent.Options
@@ -723,7 +723,7 @@ AreaList = {
 }
 end
 
---// Check Boss Quest
+--// kiểm tra bossboss
 function CheckBossQuest()
 if First_Sea then
 if SelectBoss == "The Gorilla King" then
@@ -2297,7 +2297,7 @@ function BTP(p)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
----Close gui
+---đóng menu
 local ScreenGui = Instance.new("ScreenGui")
 local ImageButton = Instance.new("ImageButton")
 local UICorner = Instance.new("UICorner")
@@ -2384,11 +2384,11 @@ local posZ = 0
 --Create Tabs
     Tabs.Main:AddParagraph({
         Title = "Farming",
-        Content = "Auto Farm"
+        Content = "Tự Động Cày"
     })
 
     local DropdownSelectWeapon = Tabs.Main:AddDropdown("DropdownSelectWeapon", {
-        Title = "Dropdown",
+        Title = "Bỏ",
         Values = {'Melee','Sword','Blox Fruit'},
         Multi = false,
         Default = 1,
@@ -2540,7 +2540,7 @@ local posZ = 0
       end)
 
       Tabs.Main:AddButton({
-        Title = "Redeem All Code",
+        Title = "Nhập toàn bộ codecode",
         Description = "Redeem all code x2 exp",
         Callback = function()
             UseCode()
@@ -2569,7 +2569,7 @@ local posZ = 0
 
 
     Tabs.Main:AddButton({
-        Title = "Fps Booster",
+        Title = "Tăng FPS",
         Description = "Boost your fps",
         Callback = function()
             FPSBooster()
@@ -2621,12 +2621,12 @@ local posZ = 0
 --------------------------------------------------------------------------------------------------------------------------------------------
 --Mastery
     Tabs.Main:AddParagraph({
-        Title = "Mastery Farm",
+        Title = "Cày Thông Thạo",
         Content = "Auto farm your mastery"
     })
 
     local DropdownMastery = Tabs.Main:AddDropdown("DropdownMastery", {
-        Title = "Farm Mode",
+        Title = "Chế Độ Cày",
         Values = {"Level","Near Mobs",},
         Multi = false,
         Default = 1,
