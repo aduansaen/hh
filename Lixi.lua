@@ -2546,14 +2546,14 @@ local Window = OrionLib:MakeWindow({Name = "tên cần đổi", HidePremium = fa
 
 
 OrionLib:MakeNotification({
-    Name = "tên cần đổi",
+    Name = "lixihub",
     Content = "Please Wait loading script...,Do not enable any function",
     Image = "rbxassetid://8192162908",
     Time = 5
 })
 wait(3)
 OrionLib:MakeNotification({
-    Name = "tên cần đổi",
+    Name = "lixi hub",
     Content = "đợi hub load config rồi mới sài nha",
     Image = "rbxassetid://8192162908",
     Time = 10
@@ -11402,7 +11402,7 @@ end)
 OrionLib:Init()
 
 OrionLib:MakeNotification({
-    Name = "tên cần đổi",
+    Name = "hub beo",
     Content = "Loading Config Complete!!",
     Image = "rbxassetid://8192162908",
     Time = 5
