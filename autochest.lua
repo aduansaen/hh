@@ -98,9 +98,9 @@ function AllowRunServiceBind.OnInvoke(args)
     end
     local CoreGui = game:GetService("StarterGui")
     CoreGui:SetCore("SendNotification", {
-        Title = "DUY HUB VN",
-        Text = "BY DUY HUB VN ",
-        Icon = "rbxthumb://,16160647004",
+        Title = "Lì xì hub",
+        Text = "PREMIUM",
+        Icon = "rbxthumb://16160647004",
         Duration = math.huge,
         Callback = AllowRunServiceBind,
         Button1 = "ON",
