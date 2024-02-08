@@ -103,8 +103,8 @@ function AllowRunServiceBind.OnInvoke(args)
         Icon = "rbxthumb://16160647004",
         Duration = math.huge,
         Callback = AllowRunServiceBind,
-        Button1 = "ON",
-        Button2 = "OFF",
+        Button1 = " ✅ON",
+        Button2 = " ❌OFF",
     })
 end
 
